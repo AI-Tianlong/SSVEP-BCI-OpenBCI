@@ -1,7 +1,11 @@
 # SSVEP_OpenBCI
 ## 此项目由中北大学信息与通信工程学院信号分析与系统仿真实验室创建
 (The project was created by North University of China )  
->基于OpenBCI(Bciduino)完成的SSVEP，包括刺激器、信号实时传输、脑电信号预处理程序以及基于FFT分类的所有程序  
+>此项目是基于OpenBCI(Bciduino)完成的SSVEP项目，包括以下部分
+* 基于Matlab Psychtoolbox3的闪烁刺激器
+* 基于BCIduino放大器和LSL的信号实时传输 
+* 基于matlab的脑电信号预处理
+* 基于FFT分类的以及用最终分类结果去控制蓝牙小车的所有程序  
 >  
 >  
 
