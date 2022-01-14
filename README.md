@@ -1,4 +1,4 @@
-# SSVEP_OpenBCI
+# SSVEP-BCI-OpenBCI
 ## ***此项目由中北大学信息与通信工程学院信号分析与系统仿真实验室创建***  
 ## ***(The project was created by North University of China)***
 >此项目是基于OpenBCI(Bciduino)完成的SSVEP项目，包括以下部分的所有程序
