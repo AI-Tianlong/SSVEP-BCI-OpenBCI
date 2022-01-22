@@ -7,7 +7,7 @@
 * **5 `offline_analysis.m`---离线分析程序**  
 * **6 `online_analysis.m`---在线分析程序**  
 * **7 `EEG_RAW_data`---文件夹：存放RAW脑电数据**  
-* **8 `liblsl-Matlab-master`---库文件夹**，解压后添加到matlab路径
+* **8 `liblsl-Matlab-master.zip`---库文件夹**，解压后添加到matlab路径
 * **9 `Brainflow`---库文件夹**  自己下载吧hhh，然后添加到matlab路径
 > 注：每一个程序中均给出了详细的代码注释以及对应的参考文献。: )
 
