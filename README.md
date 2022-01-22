@@ -14,14 +14,17 @@
 
 
 ## 基于Matlab Psychtoolbox3的闪烁刺激器
+### ---`matlab_stimulator`文件夹
 <img src="https://user-images.githubusercontent.com/50650583/149368480-8caf2b23-deaa-4d2d-9e05-e512cc4999f4.png" width="50%">
 
 
 
 ## 基于BCIduino放大器和LSL的信号实时传输
+### ---`matlab_signal_processing`文件夹-->查看具体说明
 ![image](https://user-images.githubusercontent.com/50650583/149366997-4a9ed976-9df0-4e66-967d-bdf5d09014a8.png)
 
 ## 基于Matlab的脑电信号预处理
+### ---`matlab_signal_processing`文件夹-->`offline_analysis`
 <img src="https://user-images.githubusercontent.com/50650583/149368378-8ab0b548-8648-42c0-b7c5-b6587f54fd0f.png" width="100%">
 
 
@@ -30,6 +33,10 @@
 
 
 ## 基于FFT的SSVEP分类
+### ---`matlab_signal_processing`文件夹-->`online_analysis`
+
 ## 利用分类结果去控制蓝牙小车运动
+### ---`matlab_signal_processing`文件夹-->`online_analysis`
+<img src='https://user-images.githubusercontent.com/50650583/150639266-47c4ba26-1e60-42e0-bb8a-ba16dde6c2df.png' width='70%'/>
 
 
