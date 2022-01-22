@@ -110,3 +110,4 @@
 ## 9 `Brainflow`---库文件夹  
 > Brainflow的库，需要将该文件及其文件夹完整的添加到Matlab路径,里面有大量的用于信号处理的封装好的函数，具体可见Brainflow官网
 [Brainflow官方参考资料](https://brainflow.readthedocs.io/en/stable/index.html)
+> 文件太大了，上传不上来https://brainflow.readthedocs.io/en/stable/BuildBrainFlow.html#matlab，可以自己在官方下hhhh
