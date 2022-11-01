@@ -40,5 +40,5 @@
 ### ---`matlab_signal_processing`文件夹-->`online_analysis`
 <img src='https://user-images.githubusercontent.com/50650583/150639266-47c4ba26-1e60-42e0-bb8a-ba16dde6c2df.png' width='70%'/>
 
-此外，关于本项目的其它问题欢迎随时联系贡献者中的 lwlBCI (lwl_19834041506@163.com)
+此外，关于本项目的其它问题欢迎随时联系贡献者中的 lwlBCI😚
 
