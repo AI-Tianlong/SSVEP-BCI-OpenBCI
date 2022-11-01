@@ -39,5 +39,6 @@
 ## 利用分类结果去控制蓝牙小车运动
 ### ---`matlab_signal_processing`文件夹-->`online_analysis`
 <img src='https://user-images.githubusercontent.com/50650583/150639266-47c4ba26-1e60-42e0-bb8a-ba16dde6c2df.png' width='70%'/>
-另外，关于本项目的其它问题可以联系atl，联系不上可以联系lwl
+
+此外，关于本项目的其它问题欢迎随时联系贡献者中的lwlBCI(18050041242@st.nuc.edu.cn)
 
