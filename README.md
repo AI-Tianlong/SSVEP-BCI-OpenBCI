@@ -1,4 +1,4 @@
-# SSVEP-BCI-OpenBCI
+# SSVEP-BCI-OpenBCI ![贡献者](https://img.shields.io/github/contributors/AI-Tianlong/SSVEP-BCI-OpenBCI?label=%E5%90%88%E4%BD%9C%E8%B4%A1%E7%8C%AE%E8%80%85)
 ## ***此项目由中北大学信息与通信工程学院信号分析与系统仿真实验室创建***  
 ## ***(The project was created by North University of China)***
 >此项目是基于OpenBCI(Bciduino)完成的SSVEP项目，包括以下部分的所有程序
