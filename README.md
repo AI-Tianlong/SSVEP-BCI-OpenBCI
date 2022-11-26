@@ -1,4 +1,6 @@
-# SSVEP-BCI-OpenBCI ![贡献者](https://img.shields.io/github/contributors/AI-Tianlong/SSVEP-BCI-OpenBCI?label=%E5%90%88%E4%BD%9C%E8%B4%A1%E7%8C%AE%E8%80%85)
+# SSVEP-BCI-OpenBCI ![贡献者](https://img.shields.io/github/contributors/AI-Tianlong/SSVEP-BCI-OpenBCI?label=%E5%90%88%E4%BD%9C%E8%B4%A1%E7%8C%AE%E8%80%85)  [![LWL](https://img.shields.io/github/followers/lwlBCI?label=LWL&style=social)](https://github.com/lwlBCI) [![BXL](https://img.shields.io/github/followers/Bu0717?label=%E5%8D%9C%E5%8D%9A%E5%A3%AB&style=social)](https://github.com/Bu0717)  [![ZZH](https://img.shields.io/github/followers/HITzihao?label=ZZH&style=social)](https://github.com/HITzihao)
+
+
 ## ***此项目由中北大学信息与通信工程学院信号分析与系统仿真实验室创建***  
 ## ***(The project was created by North University of China)***
 >此项目是基于OpenBCI(Bciduino)完成的SSVEP项目，包括以下部分的所有程序
