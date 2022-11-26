@@ -3,8 +3,7 @@
 ## 《SSVEP-OpenBCI项目复现指南》[点这里查看项目复现指南](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/blob/main/%E3%80%8ASSVEP-OpenBCI%E9%A1%B9%E7%9B%AE%E5%A4%8D%E7%8E%B0%E6%8C%87%E5%8D%97%E3%80%8B.md)
 
 ## ***此项目由中北大学信息与通信工程学院信号分析与系统仿真实验室创建***  
-## ***(The project was created by North University of China)***
->此项目是基于OpenBCI(Bciduino)完成的SSVEP项目，包括以下部分的所有程序
+## 此项目是基于OpenBCI(Bciduino)完成的SSVEP项目，包括以下部分的所有程序
 * 基于Matlab Psychtoolbox3的闪烁刺激器
 * 基于BCIduino放大器和LSL的信号实时传输 
 * 基于Matlab的脑电信号预处理
