@@ -7,4 +7,4 @@
 ## 2022-12-30-00:35 还有1天就要到截止日期啦。博士能按期完成吗？😇
 ## 🧭 导航
 
-+ 🔍[**OPENBCI安装**](https://github.com/3293172751/Block_Chain/wiki)
++ 🔍[**OPENBCI安装**](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/blob/main/OPENBCI%E5%AE%89%E8%A3%85.md)
