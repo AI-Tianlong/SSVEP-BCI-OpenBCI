@@ -25,13 +25,13 @@ graph LR
 Processing ==> OpenBCIHub ==> openbci_gui
 ```
 
-   👀[BCIduino放大器驱动和软件配置](https://www.bilibili.com/read/cv4349368?spm_id_from=333.999.0.0)
+   📺[BCIduino放大器驱动和软件配置](https://www.bilibili.com/read/cv4349368?spm_id_from=333.999.0.0)
 
-   👀[BCIduino基础教程-1-安装HUB](https://www.bilibili.com/video/BV17r4y1c74b/?spm_id_from=333.999.0.0&vd_source=507a3507231db33770b846a9a609e78e)
+   📺[BCIduino基础教程-1-安装HUB](https://www.bilibili.com/video/BV17r4y1c74b/?spm_id_from=333.999.0.0&vd_source=507a3507231db33770b846a9a609e78e)
 
-   👀[BCIduino基础教程-2-安装Processing](bilibili.com/video/BV1Bi4y1V79o/?spm_id_from=333.999.0.0&vd_source=507a3507231db33770b846a9a609e78e)
+   📺[BCIduino基础教程-2-安装Processing](bilibili.com/video/BV1Bi4y1V79o/?spm_id_from=333.999.0.0&vd_source=507a3507231db33770b846a9a609e78e)
 
-   👀[BCIduino基础教程-3-导入Processing库](https://www.bilibili.com/video/BV1jr4y1c73q/?spm_id_from=333.999.0.0&vd_source=507a3507231db33770b846a9a609e78e)
+   📺[BCIduino基础教程-3-导入Processing库](https://www.bilibili.com/video/BV1jr4y1c73q/?spm_id_from=333.999.0.0&vd_source=507a3507231db33770b846a9a609e78e)
 
 ## 🗃️OpenBCI使用
 
