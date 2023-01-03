@@ -4,4 +4,4 @@
 即日起（2022/12/13）开始更新！！！不要催啦，预计月底前(2022/12/31)更新结束,平时不看GitHub，可以加QQ：2044265038  
 ## 🧭 导航
 
-+ 🔍[**OPENBCI安装**](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/tree/main/docs)
++ 🔍[**OPENBCI安装**](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/blob/main/docs/OPENBCI%E5%AE%89%E8%A3%85.md)
