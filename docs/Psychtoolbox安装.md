@@ -18,6 +18,8 @@
 
 🐢[Psychtoolbox下载网址](http://psychtoolbox.org/download.html)
 
+下面是三个软件的安装步骤，大家可以参考进行安装。
+
   <details> <summary>🌏SVN安装</summary>
   为了安装PsychToolBox，它的版本控制程序Subversion是必须先要安装的,点击SVN的下载网址，然后选择对应的版本，进行下载安装。
 
