@@ -83,3 +83,17 @@
 
 ![image-20230103165352965](https://cdn.jsdelivr.net/gh/Bu0717/image/imgimage-20230103165352965.png)
 </details>
+
+至此`Psychtoolbox`安装完成，下面我们会演示代码如何运行。
+
+***
+
+下面是网上的一些安装教程，大家可以一起食用。
+
+🍥[Matlab+PsychToolBox=最好の心理学实验程序开发工具 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/60621225)
+
+🍥[【MATLAB】Psychtoolbox的安装方法 - 简书 (jianshu.com)](https://www.jianshu.com/p/c8cd1fc46430)
+
+🍥[Psychtoolbox-3安装步骤_Aimee@的博客-CSDN博客_psychtoolbox安装](https://blog.csdn.net/weixin_43691072/article/details/108088413?utm_medium=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-3.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-3.control)
+
+## 😍Psychtoolbox使用
