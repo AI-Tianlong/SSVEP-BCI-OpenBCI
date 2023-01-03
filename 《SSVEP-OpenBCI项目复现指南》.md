@@ -5,3 +5,4 @@
 ## 🧭 导航
 
 + 🔍[**OPENBCI安装**](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/blob/main/docs/OPENBCI%E5%AE%89%E8%A3%85.md)
++ 🔍[**Psychtoolbox安装**](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/blob/main/docs/OPENBCI%E5%AE%89%E8%A3%85.md)
