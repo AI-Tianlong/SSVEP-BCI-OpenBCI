@@ -97,3 +97,45 @@
 🍥[Psychtoolbox-3安装步骤_Aimee@的博客-CSDN博客_psychtoolbox安装](https://blog.csdn.net/weixin_43691072/article/details/108088413?utm_medium=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-3.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~default-3.control)
 
 ## 😍Psychtoolbox使用
+`psychtoolbox`的设计理念是，一层一层的“画图”，就和Ps的图层有点像。可以在`Matlab`的命令行中输入`Screen`，这个时候就会将`PsychToolBox`的一些主要函数罗列出来，并且每个分类都会比较详细。如果想知道其中一些函数的具体用法，可以使用`Screen` ‘函数名’。
+
+👇下面给大家分享一下相关的视频教程和参考书籍👇
+
+`MATLAB-PTB`前期教程🌀
+
+🍑[Matlab, Psychtoolbox心理学教程（1）软件介绍和矩阵基础_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1xL411K7xv/?spm_id_from=333.788)
+
+🍑[Matlab, Psychtoolbox心理学教程（2）数据类型 控制流 函数_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV18Y411G7aY/?spm_id_from=333.788)
+
+🍑[Matlab, Psychtoolbox心理学教程补充 -实时脚本和函数定义_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1N34y187SP/?spm_id_from=333.788)
+
+🍑[Matlab, Psychtoolbox心理学教程- PTB课程结构（行为范式）_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1x44y1T72x/?spm_id_from=333.788)
+
+🍑[Matlab, Psychtoolbox心理学教程 PTB安装_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1bU4y1d7pg/?spm_id_from=333.788)
+
+***
+
+`PTB`编程教程🐧
+
+🍉[Matlab, Psychtoolbox心理学教程（3）图像与Screen函数基本介绍_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1R3411p7Yo/?spm_id_from=333.788)
+
+🍉[Matlab, Psychtoolbox心理学教程（4) 使用Screen函数画图_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1DY4y1q7mt/?spm_id_from=333.788)
+
+🍉[Matlab, Psychtoolbox心理学教程（5) Screen时间控制和条件配置_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1g44y1P7UD/?spm_id_from=333.788)
+
+🍉[Matlab, Psychtoolbox心理学教程（番外) 简单的声音操作_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1uY4y1e7oZ/?spm_id_from=333.788)
+
+🍉[Matlab, Psychtoolbox心理学教程（6) 反应收集_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1jr4y1n7mR/?spm_id_from=333.788)
+
+🍉[Matlab, Psychtoolbox心理学教程7 绘图实战_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1c44y1u7rF/?spm_id_from=333.788)
+
+***
+
+`PTB`参考书籍(主要是看里面关于`Psychtoolbox`基本语法的一些东西。)🍁
+
+🍪[PsychToolBox工具箱及Matlab编程实例](https://www.aliyundrive.com/s/dh99k5yro3w)
+
+🍪[心理学研究方法  基于MATL... 带书签_14204946.pdf](https://www.aliyundrive.com/s/2eQUctHtHAq)
+
+🍪[Psychtoolbox教程.pdf]( https://www.aliyundrive.com/s/CwwDEKPFDvW) 
+
