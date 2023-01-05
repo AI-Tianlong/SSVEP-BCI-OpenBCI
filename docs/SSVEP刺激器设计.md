@@ -62,3 +62,5 @@
 🐾[High-speed spelling with a noninvasive brain–computer interface | PNAS](https://www.pnas.org/doi/full/10.1073/pnas.1508080112)
 
 🐾[Filter bank canonical correlation analysis for implementing a high-speed SSVEP-based brain–computer interface - IOPscience](https://iopscience.iop.org/article/10.1088/1741-2560/12/4/046008)
+***
+未完
