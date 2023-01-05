@@ -4,7 +4,7 @@
 
 * 稳态视觉诱发电位(<font color='red'>S</font>teady-<font color='red'>S</font>tate <font color='red'>V</font>isual <font color='red'>E</font>voked <font color='red'>P</font>otential,<font color='red'>SSVEP</font>)
 
-* 当人体受到一个固定频率的闪烁或者变换模式的视觉刺激时，大脑皮层的电位活动将被调制，从而产生一个连续的且与刺激频率有关（==刺激频率的基频或倍频处==）的响应，这个响应具有和视觉刺激类似的周期性节律，即为稳态视觉诱发电位(`SSVEP`)。`SSVEP`信号表现在`EEG`脑电信号中则是在功率谱中能在刺激频率或谐波上出现谱峰。通过分析检测谱峰处对应的频率，即能检测到受试者视觉注视的刺激源，从而能识别受试者的意图。
+* 当人体受到一个固定频率的闪烁或者变换模式的视觉刺激时，大脑皮层的电位活动将被调制，从而产生一个连续的且与刺激频率有关（刺激频率的基频或倍频处）的响应，这个响应具有和视觉刺激类似的周期性节律，即为稳态视觉诱发电位(`SSVEP`)。`SSVEP`信号表现在`EEG`脑电信号中则是在功率谱中能在刺激频率或谐波上出现谱峰。通过分析检测谱峰处对应的频率，即能检测到受试者视觉注视的刺激源，从而能识别受试者的意图。
 
 🙌[稳态视觉诱发电位 SSVEP 简介](https://mp.weixin.qq.com/s?__biz=Mzg4MzYzNDgwMQ==&mid=2247508127&idx=1&sn=77ada479f6df75d0f5eec8cb1122d1bd&source=41#wechat_redirect)
 
