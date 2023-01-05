@@ -6,3 +6,4 @@
 
 + 🔍[**OPENBCI安装**](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/blob/main/docs/OPENBCI%E5%AE%89%E8%A3%85.md)
 + 🔧[**Psychtoolbox安装**](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/blob/main/docs/Psychtoolbox%E5%AE%89%E8%A3%85.md)
++ 🐵[**SSVEP刺激器设计**](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/blob/main/docs/SSVEP%E5%88%BA%E6%BF%80%E5%99%A8%E8%AE%BE%E8%AE%A1.md)
