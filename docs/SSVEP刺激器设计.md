@@ -23,3 +23,42 @@
 * 刺激频率分为低、中、高频段
 * 现在用的多的就是低频段(8-15Hz)
 * 关于是不是需要去检测电脑屏幕真实的闪烁频率和程序是否一致，咨询之后回复是可以不用做，低频的只要在电脑自己刷新率之内的，基本是准的。
+
+
+<details> <summary>💡正弦频率相位联合调制原理💡</summary>
+正弦频率相位联合调制使用如下公式来确定每一个闪烁块在当前时刻的亮度： 
+
+![img](https://cdn.jsdelivr.net/gh/Bu0717/image/imgclip_image002.gif)
+
+其中，*s*为当前某个闪烁块的亮度，取值为0-1，对应0-255个亮度等级，*i*为当前屏幕的第几帧，*RefreshRate*为显示器的屏幕刷新率，一般为60Hz，根据显示器设置；*φ*是人为设计的某个闪烁刺激块的相位，单位为*π*；*f* 是人为设计的某个闪烁刺激块的闪烁频率，单位为 *Hz*。下图为正弦频率相位联合调制原理：
+
+![image-20230105170049517](https://cdn.jsdelivr.net/gh/Bu0717/image/imgimage-20230105170049517.png)
+
+在项目中，使用38个闪烁刺激块来完成SSVEP的刺激器系统，利用`Psychtoolbox` `Matlab`工具箱完成设计，针对不同场景，最终设计的刺激器界面如下图所示：
+
+* `SSVEP`拼写闪烁刺激器界面带频率相位信息
+
+![image-20230105170745414](https://cdn.jsdelivr.net/gh/Bu0717/image/imgimage-20230105170745414.png)
+
+* `SSVEP`拼写软件(对应`SPELLER_PIN_XIE.m`)
+
+![image-20230105170923833](https://cdn.jsdelivr.net/gh/Bu0717/image/imgimage-20230105170923833.png)
+
+
+
+*  `SSVEP`小车控制软件(对应`BCI_car_stimu.m`)
+
+![image-20230105170947276](https://cdn.jsdelivr.net/gh/Bu0717/image/imgimage-20230105170947276.png)
+</details>
+
+相关文献参考：
+
+🐾[Sampled sinusoidal stimulation profile and multichannel fuzzy logic classification for monitor-based phase-coded SSVEP brain–computer interfacing - IOPscience](https://iopscience.iop.org/article/10.1088/1741-2560/10/3/036011)
+
+🐾[A high-ITR SSVEP-based BCI speller: Brain-Computer Interfaces: Vol 1, No 3-4 (tandfonline.com)](https://www.tandfonline.com/doi/abs/10.1080/2326263X.2014.944469)
+
+🐾[Generating Visual Flickers for Eliciting Robust Steady-State Visual Evoked Potentials at Flexible Frequencies Using Monitor Refresh Rate | PLOS ONE](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0099235)
+
+🐾[High-speed spelling with a noninvasive brain–computer interface | PNAS](https://www.pnas.org/doi/full/10.1073/pnas.1508080112)
+
+🐾[Filter bank canonical correlation analysis for implementing a high-speed SSVEP-based brain–computer interface - IOPscience](https://iopscience.iop.org/article/10.1088/1741-2560/12/4/046008)
