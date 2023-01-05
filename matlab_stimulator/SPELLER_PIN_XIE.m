@@ -1,19 +1,19 @@
 
 Screen('Preference','SkipSyncTests', 1);  
 Screen('Preference', 'ConserveVRAM', 64); 
-Screen('Preference','VisualDebugLevel',0);%»°œ˚¡Àø™Õ∑µƒƒ«∏ˆ»˝Ω«–Œ∂Øª≠
-% …Ë÷√∆¡ƒª£¨’‚¡Ωæ‰ª∞Õ®≥£–¥‘⁄÷˜∫Ø ˝«∞√Êµƒ£¨’‚¿ÔŒ™¡À∑Ω±„¥Ûº“‘À––ø…“‘÷±Ω”øΩ±¥
-% “‘œ¬ «µ•∏ˆtrail¿Ôµƒœ‘ æƒ⁄»›
+Screen('Preference','VisualDebugLevel',0);%ÂèñÊ∂à‰∫ÜÂºÄÂ§¥ÁöÑÈÇ£‰∏™‰∏âËßíÂΩ¢Âä®Áîª
+% ËÆæÁΩÆÂ±èÂπïÔºåËøô‰∏§Âè•ËØùÈÄöÂ∏∏ÂÜôÂú®‰∏ªÂáΩÊï∞ÂâçÈù¢ÁöÑÔºåËøôÈáå‰∏∫‰∫ÜÊñπ‰æøÂ§ßÂÆ∂ËøêË°åÂèØ‰ª•Áõ¥Êé•Êã∑Ë¥ù
+% ‰ª•‰∏ãÊòØÂçï‰∏™trailÈáåÁöÑÊòæÁ§∫ÂÜÖÂÆπ
 ScreenNum=Screen('Screens');  
-%HideCursor;%“˛≤ÿπ‚±Í
+%HideCursor;%ÈöêËóèÂÖâÊ†á
 %%
-[w,wrct] = Screen('OpenWindow',0); %1Œ™ µ—È “Õ‚Ω”∆¡ƒª£¨2Œ™µÁƒ‘◊‘¥¯∆¡ƒª,0Œ™¡Ω∏ˆ∆¡ƒªÕ¨ ±œ‘ æ
-wrct; %± º«±æŒ™1920*1080   µ—È “Ã® Ωª˙Œ™1600*900   À˘“‘ “™…Ëº∆“ª∏ˆ ◊‘÷˜πÊªÆµƒ≥Ã–Ú
-%¥Úø™¥∞ø⁄£¨»´∆¡
+[w,wrct] = Screen('OpenWindow',0); %1‰∏∫ÂÆûÈ™åÂÆ§Â§ñÊé•Â±èÂπïÔºå2‰∏∫ÁîµËÑëËá™Â∏¶Â±èÂπï,0‰∏∫‰∏§‰∏™Â±èÂπïÂêåÊó∂ÊòæÁ§∫
+wrct; %Á¨îËÆ∞Êú¨‰∏∫1920*1080  ÂÆûÈ™åÂÆ§Âè∞ÂºèÊú∫‰∏∫1600*900   ÊâÄ‰ª• Ë¶ÅËÆæËÆ°‰∏Ä‰∏™ Ëá™‰∏ªËßÑÂàíÁöÑÁ®ãÂ∫è
+%ÊâìÂºÄÁ™óÂè£ÔºåÂÖ®Â±è
 Screen('FillRect',w,0);
-%¥¥Ω®∫⁄∆¡`
+%ÂàõÂª∫ÈªëÂ±è`
 if wrct == [0 0 1600 900]
-    side=135;%∑ΩøÈµƒ±ﬂ≥§
+    side=135;%ÊñπÂùóÁöÑËæπÈïø
     jiangex=22;
     jiangey=30;
     Screen('TextSize', w,100);
@@ -25,7 +25,7 @@ elseif wrct == [0 0 1920 1080]
 %     Screen('TextFont', w,'Consolas');
 end
 
-% %œﬁ÷∆À¢–¬¬ Œ™60Hz   ≤ª––£¨”–Œ Ã‚
+% %ÈôêÂà∂Âà∑Êñ∞Áéá‰∏∫60Hz   ‰∏çË°åÔºåÊúâÈóÆÈ¢ò
 % res=Screen('Resolutions',1);
 % for i=length(res):-1:1
 %     fprintf('%dX%d,,%d,%d\n',res(i).width,res(i).height,res(i).hz,res(i).pixelSize)
@@ -35,15 +35,15 @@ end
 ifi = Screen('GetFlipInterval', w);
 time=0;
 topPriorityLevel = MaxPriority(w);
-Priority(topPriorityLevel);            %”≈œ»º∂…Ë÷√Œ™◊Ó∏ﬂ
+Priority(topPriorityLevel);            %‰ºòÂÖàÁ∫ßËÆæÁΩÆ‰∏∫ÊúÄÈ´ò
 
-%Screen('DrawText',w,'°¸',835,40,0)
+%Screen('DrawText',w,'‚Üë',835,40,0)
 
-%% %%%%%%%%%%%%%%%%%%%%≥ı ºªØœ‘ æ »´¡¡ø™
-%% %%%∑ΩøÈœ‘ æ
-            Screen('FrameRect',w,255,[15,30,13+9*jiangex+10*side,30+side],3);%%%%Œƒ±æµƒ ‰»ÎøÚ
+%% %%%%%%%%%%%%%%%%%%%%ÂàùÂßãÂåñÊòæÁ§∫ ÂÖ®‰∫ÆÂºÄ
+%% %%%ÊñπÂùóÊòæÁ§∫
+            Screen('FrameRect',w,255,[15,30,13+9*jiangex+10*side,30+side],3);%%%%ÊñáÊú¨ÁöÑËæìÂÖ•Ê°Ü
             Screen('FillRect',w,255,[20+9*jiangex+9*side,33,10+9*jiangex+10*side,27+side]);
-            %µ⁄“ª––∑ΩøÈ
+            %Á¨¨‰∏ÄË°åÊñπÂùó
             Screen('FillRect',w,255,[20+0*jiangex+0*side,30+side+jiangey,20+0*jiangex+side,30+2*side+jiangey]); 
             Screen('FillRect',w,255, [20+1*jiangex+1*side,30+side+jiangey,20+1*jiangex+2*side,30+2*side+jiangey]); 
             Screen('FillRect',w,255, [20+2*jiangex+2*side,30+side+jiangey,20+2*jiangex+3*side,30+2*side+jiangey]); 
@@ -54,7 +54,7 @@ Priority(topPriorityLevel);            %”≈œ»º∂…Ë÷√Œ™◊Ó∏ﬂ
             Screen('FillRect',w,255, [20+7*jiangex+7*side,30+side+jiangey,20+7*jiangex+8*side,30+2*side+jiangey]); 
             Screen('FillRect',w,255, [20+8*jiangex+8*side,30+side+jiangey,20+8*jiangex+9*side,30+2*side+jiangey]); 
             Screen('FillRect',w,255, [20+9*jiangex+9*side,30+side+jiangey,20+9*jiangex+10*side,30+2*side+jiangey]); 
-            %%%%%%%%%%%%%%%%%%%%%%%%%%%%µ⁄2––%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            %%%%%%%%%%%%%%%%%%%%%%%%%%%%Á¨¨2Ë°å%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
             Screen('FillRect',w,255, [20+0*jiangex+0*side,30+2*side+2*jiangey,20+0*jiangex+1*side,30+3*side+2*jiangey]);     
             Screen('FillRect',w,255, [20+1*jiangex+1*side,30+2*side+2*jiangey,20+1*jiangex+2*side,30+3*side+2*jiangey]); 
             Screen('FillRect',w,255, [20+2*jiangex+2*side,30+2*side+2*jiangey,20+2*jiangex+3*side,30+3*side+2*jiangey]); 
@@ -65,7 +65,7 @@ Priority(topPriorityLevel);            %”≈œ»º∂…Ë÷√Œ™◊Ó∏ﬂ
             Screen('FillRect',w,255, [20+7*jiangex+7*side,30+2*side+2*jiangey,20+7*jiangex+8*side,30+3*side+2*jiangey]);      
             Screen('FillRect',w,255, [20+8*jiangex+8*side,30+2*side+2*jiangey,20+8*jiangex+9*side,30+3*side+2*jiangey]); 
             Screen('FillRect',w,255, [20+9*jiangex+9*side,30+2*side+2*jiangey,20+9*jiangex+10*side,30+3*side+2*jiangey]); 
-            %%%%%%%%%%%%%%%%%%%%%%%%%%%%µ⁄3––%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            %%%%%%%%%%%%%%%%%%%%%%%%%%%%Á¨¨3Ë°å%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
             Screen('FillRect',w,255, [20+0*jiangex+0*side,30+3*side+3*jiangey,20+0*jiangex+1*side,30+4*side+3*jiangey]); 
             Screen('FillRect',w,255, [20+1*jiangex+1*side,30+3*side+3*jiangey,20+1*jiangex+2*side,30+4*side+3*jiangey]); 
             Screen('FillRect',w,255, [20+2*jiangex+2*side,30+3*side+3*jiangey,20+2*jiangex+3*side,30+4*side+3*jiangey]); 
@@ -75,7 +75,7 @@ Priority(topPriorityLevel);            %”≈œ»º∂…Ë÷√Œ™◊Ó∏ﬂ
             Screen('FillRect',w,255, [20+6*jiangex+6*side,30+3*side+3*jiangey,20+6*jiangex+7*side,30+4*side+3*jiangey]); 
             Screen('FillRect',w,255, [20+7*jiangex+7*side,30+3*side+3*jiangey,20+7*jiangex+8*side,30+4*side+3*jiangey]); 
             Screen('FillRect',w,255, [20+8*jiangex+8*side,30+3*side+3*jiangey,20+8*jiangex+9*side,30+4*side+3*jiangey]); 
-            %%%%%%%%%%%%%%%%%%%%%%%%%%%%µ⁄4––%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            %%%%%%%%%%%%%%%%%%%%%%%%%%%%Á¨¨4Ë°å%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
             Screen('FillRect',w,255, [20+0*jiangex+0*side,30+4*side+4*jiangey,20+0*jiangex+1*side,30+5*side+4*jiangey]); 
             Screen('FillRect',w,255, [20+1*jiangex+1*side,30+4*side+4*jiangey,20+1*jiangex+2*side,30+5*side+4*jiangey]); 
             Screen('FillRect',w,255, [20+2*jiangex+2*side,30+4*side+4*jiangey,20+2*jiangex+3*side,30+5*side+4*jiangey]); 
@@ -84,13 +84,13 @@ Priority(topPriorityLevel);            %”≈œ»º∂…Ë÷√Œ™◊Ó∏ﬂ
             Screen('FillRect',w,255, [20+5*jiangex+5*side,30+4*side+4*jiangey,20+5*jiangex+6*side,30+5*side+4*jiangey]); 
             Screen('FillRect',w,255, [20+6*jiangex+6*side,30+4*side+4*jiangey,20+6*jiangex+7*side,30+5*side+4*jiangey]); 
             Screen('FillRect',w,255, [20+7*jiangex+7*side,30+4*side+4*jiangey,20+8*jiangex+9*side,30+5*side+4*jiangey]); 
-%% œ‘ æŒƒ◊÷
-%% œ‘ æŒƒ◊÷
+%% ÊòæÁ§∫ÊñáÂ≠ó
+%% ÊòæÁ§∫ÊñáÂ≠ó
             Screen('TextSize', w,65);
             Screen('DrawText',w,'>',25,100,255); %
             Screen('DrawText',w,'Back',26+9*jiangex+9*side,90,0);%Back
             Screen('TextSize', w,85);
-            %%%%%%%%%%%%%%%%%%%%%%%%%%%%µ⁄1––%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            %%%%%%%%%%%%%%%%%%%%%%%%%%%%Á¨¨1Ë°å%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
             Screen('DrawText',w,'1',80+0*jiangex+0*side,80+side+jiangey,0); 
             Screen('DrawText',w,'2',80+1*jiangex+1*side,80+side+jiangey,0); 
             Screen('DrawText',w,'3',80+2*jiangex+2*side,80+side+jiangey,0); 
@@ -101,7 +101,7 @@ Priority(topPriorityLevel);            %”≈œ»º∂…Ë÷√Œ™◊Ó∏ﬂ
             Screen('DrawText',w,'8',80+7*jiangex+7*side,80+side+jiangey,0); 
             Screen('DrawText',w,'9',80+8*jiangex+8*side,80+side+jiangey,0); 
             Screen('DrawText',w,'0',80+9*jiangex+9*side,80+side+jiangey,0); 
-            %% %%%%%%%%%%%%%%%%%%%%%%%%%%µ⁄2––%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            %% %%%%%%%%%%%%%%%%%%%%%%%%%%Á¨¨2Ë°å%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
             Screen('DrawText',w,'Q',75+0*jiangex+0*side,80+2*side+2*jiangey,0); 
             Screen('DrawText',w,'W',75+1*jiangex+1*side,80+2*side+2*jiangey,0); 
             Screen('DrawText',w,'E',75+2*jiangex+2*side,80+2*side+2*jiangey,0); 
@@ -112,7 +112,7 @@ Priority(topPriorityLevel);            %”≈œ»º∂…Ë÷√Œ™◊Ó∏ﬂ
             Screen('DrawText',w,'I',90+7*jiangex+7*side,80+2*side+2*jiangey,0); 
             Screen('DrawText',w,'O',75+8*jiangex+8*side,80+2*side+2*jiangey,0); 
             Screen('DrawText',w,'P',75+9*jiangex+9*side,80+2*side+2*jiangey,0); 
-            %% %%%%%%%%%%%%%%%%%%%%%%%%%%µ⁄3––%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            %% %%%%%%%%%%%%%%%%%%%%%%%%%%Á¨¨3Ë°å%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
             Screen('DrawText',w,'A',75+0*jiangex+0*side,80+3*side+3*jiangey,0); 
             Screen('DrawText',w,'S',75+1*jiangex+1*side,80+3*side+3*jiangey,0); 
             Screen('DrawText',w,'D',75+2*jiangex+2*side,80+3*side+3*jiangey,0); 
@@ -122,7 +122,7 @@ Priority(topPriorityLevel);            %”≈œ»º∂…Ë÷√Œ™◊Ó∏ﬂ
             Screen('DrawText',w,'J',75+6*jiangex+6*side,80+3*side+3*jiangey,0); 
             Screen('DrawText',w,'K',75+7*jiangex+7*side,80+3*side+3*jiangey,0); 
             Screen('DrawText',w,'L',75+8*jiangex+8*side,80+3*side+3*jiangey,0); 
-            %% %%%%%%%%%%%%%%%%%%%%%%%%%%µ⁄4––%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            %% %%%%%%%%%%%%%%%%%%%%%%%%%%Á¨¨4Ë°å%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
             Screen('DrawText',w,'Z',75+0*jiangex+0*side,80+4*side+4*jiangey,0); 
             Screen('DrawText',w,'X',75+1*jiangex+1*side,80+4*side+4*jiangey,0); 
             Screen('DrawText',w,'C',75+2*jiangex+2*side,80+4*side+4*jiangey,0); 
@@ -134,7 +134,7 @@ Priority(topPriorityLevel);            %”≈œ»º∂…Ë÷√Œ™◊Ó∏ﬂ
             Screen('DrawText',w,'Space',80+7*jiangex+7*side,80+4*side+4*jiangey,0); 
 %%
 
-%%%%%%%%%%%%%%%%%%%%%%“˝µº”Ô£¨∞¥œ¬»Œ∫Œº¸ø™∆Ù
+%%%%%%%%%%%%%%%%%%%%%%ÂºïÂØºËØ≠ÔºåÊåâ‰∏ã‰ªª‰ΩïÈîÆÂºÄÂêØ
 if wrct == [0 0 1600 900]
     aaarect=[0 0 700 400];
 elseif wrct == [0 0 1920 1080]
@@ -149,17 +149,17 @@ Screen('DrawText',w,'To Start Test',50+newrect(1),220+newrect(2),[255,215,0]);
 Screen('Flip',w); 
    %%
 while 1
-    FrameNum=0;  %”√¿¥º∆À„ ÷°£¨”√¿¥º∆À„£¨√ªÀ¢–¬“ª¥Œ£¨À„“ª÷°£¨i*À¢–¬“ª÷°µƒ ±º‰=sinµƒt
+    FrameNum=0;  %Áî®Êù•ËÆ°ÁÆó Â∏ßÔºåÁî®Êù•ËÆ°ÁÆóÔºåÊ≤°Âà∑Êñ∞‰∏ÄÊ¨°ÔºåÁÆó‰∏ÄÂ∏ßÔºåi*Âà∑Êñ∞‰∏ÄÂ∏ßÁöÑÊó∂Èó¥=sinÁöÑt
     if KbCheck
     %%%%%%%%%%%%%%%%%%%%%
         WaitSecs(0.1);
         waitframes = 1;
-        vbl = Screen('Flip',w);    %vbl¥Êµƒµ⁄“ª¥ŒÀ¢–¬∆¡ƒªµƒ ±º‰
-        while ~KbCheck   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%ø™ º…¡À∏
+        vbl = Screen('Flip',w);    %vblÂ≠òÁöÑÁ¨¨‰∏ÄÊ¨°Âà∑Êñ∞Â±èÂπïÁöÑÊó∂Èó¥
+        while ~KbCheck   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%ÂºÄÂßãÈó™ÁÉÅ
             %[secs,keycode]=KbPressWait;
-            Screen('FrameRect',w,255,[15,30,13+9*jiangex+10*side,30+side],3);%%%%Œƒ±æµƒ ‰»ÎøÚ
+            Screen('FrameRect',w,255,[15,30,13+9*jiangex+10*side,30+side],3);%%%%ÊñáÊú¨ÁöÑËæìÂÖ•Ê°Ü
             Screen('FillRect',w,flicker(15.6,FrameNum,0.13*pi,ifi),[20+9*jiangex+9*side,33,10+9*jiangex+10*side,27+side]);
-            %µ⁄“ª––∑ΩøÈ
+            %Á¨¨‰∏ÄË°åÊñπÂùó
             Screen('FillRect',w,flicker(8.0,FrameNum,0.0*pi,ifi),[20+0*jiangex+0*side,30+side+jiangey,20+0*jiangex+side,30+2*side+jiangey]); 
             Screen('FillRect',w,flicker(8.8,FrameNum,0.0*pi,ifi), [20+1*jiangex+1*side,30+side+jiangey,20+1*jiangex+2*side,30+2*side+jiangey]); 
             Screen('FillRect',w,flicker(9.6,FrameNum,0.0*pi,ifi), [20+2*jiangex+2*side,30+side+jiangey,20+2*jiangex+3*side,30+2*side+jiangey]); 
@@ -170,7 +170,7 @@ while 1
             Screen('FillRect',w,flicker(13.6,FrameNum,0.0*pi,ifi), [20+7*jiangex+7*side,30+side+jiangey,20+7*jiangex+8*side,30+2*side+jiangey]); 
             Screen('FillRect',w,flicker(14.4,FrameNum,0.0*pi,ifi), [20+8*jiangex+8*side,30+side+jiangey,20+8*jiangex+9*side,30+2*side+jiangey]); 
             Screen('FillRect',w,flicker(15.2,FrameNum,0.0*pi,ifi), [20+9*jiangex+9*side,30+side+jiangey,20+9*jiangex+10*side,30+2*side+jiangey]); 
-            %%%%%%%%%%%%%%%%%%%%%%%%%%%%µ⁄2––%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            %%%%%%%%%%%%%%%%%%%%%%%%%%%%Á¨¨2Ë°å%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
             Screen('FillRect',w,flicker(8.2,FrameNum,0.5*pi,ifi), [20+0*jiangex+0*side,30+2*side+2*jiangey,20+0*jiangex+1*side,30+3*side+2*jiangey]);     
             Screen('FillRect',w,flicker(9.0,FrameNum,0.5*pi,ifi), [20+1*jiangex+1*side,30+2*side+2*jiangey,20+1*jiangex+2*side,30+3*side+2*jiangey]); 
             Screen('FillRect',w,flicker(9.8,FrameNum,0.5*pi,ifi), [20+2*jiangex+2*side,30+2*side+2*jiangey,20+2*jiangex+3*side,30+3*side+2*jiangey]); 
@@ -181,7 +181,7 @@ while 1
             Screen('FillRect',w,flicker(13.8,FrameNum,0.5*pi,ifi), [20+7*jiangex+7*side,30+2*side+2*jiangey,20+7*jiangex+8*side,30+3*side+2*jiangey]);      
             Screen('FillRect',w,flicker(14.6,FrameNum,0.5*pi,ifi), [20+8*jiangex+8*side,30+2*side+2*jiangey,20+8*jiangex+9*side,30+3*side+2*jiangey]); 
             Screen('FillRect',w,flicker(15.4,FrameNum,0.5*pi,ifi), [20+9*jiangex+9*side,30+2*side+2*jiangey,20+9*jiangex+10*side,30+3*side+2*jiangey]); 
-            %%%%%%%%%%%%%%%%%%%%%%%%%%%%µ⁄3––%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            %%%%%%%%%%%%%%%%%%%%%%%%%%%%Á¨¨3Ë°å%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
             Screen('FillRect',w,flicker(8.4,FrameNum,1*pi,ifi), [20+0*jiangex+0*side,30+3*side+3*jiangey,20+0*jiangex+1*side,30+4*side+3*jiangey]); 
             Screen('FillRect',w,flicker(9.2,FrameNum,1*pi,ifi), [20+1*jiangex+1*side,30+3*side+3*jiangey,20+1*jiangex+2*side,30+4*side+3*jiangey]); 
             Screen('FillRect',w,flicker(10.0,FrameNum,1*pi,ifi), [20+2*jiangex+2*side,30+3*side+3*jiangey,20+2*jiangex+3*side,30+4*side+3*jiangey]); 
@@ -191,7 +191,7 @@ while 1
             Screen('FillRect',w,flicker(13.2,FrameNum,1*pi,ifi), [20+6*jiangex+6*side,30+3*side+3*jiangey,20+6*jiangex+7*side,30+4*side+3*jiangey]); 
             Screen('FillRect',w,flicker(14.0,FrameNum,1*pi,ifi), [20+7*jiangex+7*side,30+3*side+3*jiangey,20+7*jiangex+8*side,30+4*side+3*jiangey]); 
             Screen('FillRect',w,flicker(14.8,FrameNum,1*pi,ifi), [20+8*jiangex+8*side,30+3*side+3*jiangey,20+8*jiangex+9*side,30+4*side+3*jiangey]); 
-            %%%%%%%%%%%%%%%%%%%%%%%%%%%%µ⁄4––%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            %%%%%%%%%%%%%%%%%%%%%%%%%%%%Á¨¨4Ë°å%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
             Screen('FillRect',w,flicker(8.6,FrameNum,1.5*pi,ifi), [20+0*jiangex+0*side,30+4*side+4*jiangey,20+0*jiangex+1*side,30+5*side+4*jiangey]); 
             Screen('FillRect',w,flicker(9.4,FrameNum,1.5*pi,ifi), [20+1*jiangex+1*side,30+4*side+4*jiangey,20+1*jiangex+2*side,30+5*side+4*jiangey]); 
             Screen('FillRect',w,flicker(10.2,FrameNum,1.5*pi,ifi), [20+2*jiangex+2*side,30+4*side+4*jiangey,20+2*jiangex+3*side,30+5*side+4*jiangey]); 
@@ -202,12 +202,12 @@ while 1
             Screen('FillRect',w,flicker(14.2,FrameNum,1.5*pi,ifi), [20+7*jiangex+7*side,30+4*side+4*jiangey,20+8*jiangex+9*side,30+5*side+4*jiangey]); 
 
 
-            %% œ‘ æŒƒ◊÷
+            %% ÊòæÁ§∫ÊñáÂ≠ó
             Screen('TextSize', w,65);
             Screen('DrawText',w,'>',25,100,255); %
             Screen('DrawText',w,'Back',26+9*jiangex+9*side,90,0);%Back
             Screen('TextSize', w,85);
-            %%%%%%%%%%%%%%%%%%%%%%%%%%%%µ⁄1––%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            %%%%%%%%%%%%%%%%%%%%%%%%%%%%Á¨¨1Ë°å%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
             Screen('DrawText',w,'1',80+0*jiangex+0*side,80+side+jiangey,0); 
             Screen('DrawText',w,'2',80+1*jiangex+1*side,80+side+jiangey,0); 
             Screen('DrawText',w,'3',80+2*jiangex+2*side,80+side+jiangey,0); 
@@ -218,7 +218,7 @@ while 1
             Screen('DrawText',w,'8',80+7*jiangex+7*side,80+side+jiangey,0); 
             Screen('DrawText',w,'9',80+8*jiangex+8*side,80+side+jiangey,0); 
             Screen('DrawText',w,'0',80+9*jiangex+9*side,80+side+jiangey,0); 
-            %% %%%%%%%%%%%%%%%%%%%%%%%%%%µ⁄2––%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            %% %%%%%%%%%%%%%%%%%%%%%%%%%%Á¨¨2Ë°å%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
             Screen('DrawText',w,'Q',75+0*jiangex+0*side,80+2*side+2*jiangey,0); 
             Screen('DrawText',w,'W',75+1*jiangex+1*side,80+2*side+2*jiangey,0); 
             Screen('DrawText',w,'E',75+2*jiangex+2*side,80+2*side+2*jiangey,0); 
@@ -229,7 +229,7 @@ while 1
             Screen('DrawText',w,'I',90+7*jiangex+7*side,80+2*side+2*jiangey,0); 
             Screen('DrawText',w,'O',75+8*jiangex+8*side,80+2*side+2*jiangey,0); 
             Screen('DrawText',w,'P',75+9*jiangex+9*side,80+2*side+2*jiangey,0); 
-            %% %%%%%%%%%%%%%%%%%%%%%%%%%%µ⁄3––%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            %% %%%%%%%%%%%%%%%%%%%%%%%%%%Á¨¨3Ë°å%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
             Screen('DrawText',w,'A',75+0*jiangex+0*side,80+3*side+3*jiangey,0); 
             Screen('DrawText',w,'S',75+1*jiangex+1*side,80+3*side+3*jiangey,0); 
             Screen('DrawText',w,'D',75+2*jiangex+2*side,80+3*side+3*jiangey,0); 
@@ -239,7 +239,7 @@ while 1
             Screen('DrawText',w,'J',75+6*jiangex+6*side,80+3*side+3*jiangey,0); 
             Screen('DrawText',w,'K',75+7*jiangex+7*side,80+3*side+3*jiangey,0); 
             Screen('DrawText',w,'L',75+8*jiangex+8*side,80+3*side+3*jiangey,0); 
-            %% %%%%%%%%%%%%%%%%%%%%%%%%%%µ⁄4––%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            %% %%%%%%%%%%%%%%%%%%%%%%%%%%Á¨¨4Ë°å%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
             Screen('DrawText',w,'Z',75+0*jiangex+0*side,80+4*side+4*jiangey,0); 
             Screen('DrawText',w,'X',75+1*jiangex+1*side,80+4*side+4*jiangey,0); 
             Screen('DrawText',w,'C',75+2*jiangex+2*side,80+4*side+4*jiangey,0); 
@@ -253,12 +253,12 @@ while 1
             vbl = Screen('Flip', w);
             FrameNum=FrameNum+1;
         end
-        ShowCursor;  %œ‘ æπ‚±Í  
+        ShowCursor;  %ÊòæÁ§∫ÂÖâÊ†á  
         Screen('CloseAll');
         break;
     end
 end
    
-%  % ∞¥»Œ“‚º¸ºÃ–¯
+%  % Êåâ‰ªªÊÑèÈîÆÁªßÁª≠
     
-    %Ω· ¯£¨πÿ±’∆¡ƒª
+    %ÁªìÊùüÔºåÂÖ≥Èó≠Â±èÂπï
