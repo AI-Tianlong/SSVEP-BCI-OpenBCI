@@ -63,4 +63,8 @@
 
 🐾[Filter bank canonical correlation analysis for implementing a high-speed SSVEP-based brain–computer interface - IOPscience](https://iopscience.iop.org/article/10.1088/1741-2560/12/4/046008)
 ***
-未完
+## 🏃‍♂️刺激器代码运行
+
+在掌握了`SSVEP`的基本原理后，我们就可以使用`Psychtoolbox`开始设计自己的刺激器。由于在代码包中（**[`matlab_stimulator`](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/tree/main/matlab_stimulator)**）我们提供了详细的程序注释，所以就不再做过多的程序介绍。大家直接运行**[`matlab_stimulator`](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/tree/main/matlab_stimulator)**中的[`BCI_car_stimu.m`](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/blob/main/matlab_stimulator/BCI_car_stimu.m),[`SPELLER_PIN_XIE.m`](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/blob/main/matlab_stimulator/SPELLER_PIN_XIE.m)以及[`flicker.m`](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/blob/main/matlab_stimulator/flicker.m)即可。
+
+🤺🤺🤺注意，运行该程序前一定要安装好[**`Psychtoolbox安装`**](
