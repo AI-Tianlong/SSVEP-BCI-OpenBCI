@@ -1,5 +1,5 @@
 # matlab_signal_processing
-## 该文件夹下包含6个程序文件，1个data文件夹，2个必备的库(LSL和Brainflow)
+## 该文件夹下包含6个程序文件，2个data文件夹，2个必备的库(LSL和Brainflow)
 * **1 `bluetooth_test.m`---蓝牙测试程序**
 * **2 `train_receive_data.m`---OpenBCI通过LSL传输至matlab的程序**
 * **3 `butter_bandpass.m`函数---给定带通滤波器参数，返回[b,a]**
@@ -9,6 +9,8 @@
 * **7 `EEG_RAW_data`---文件夹：存放RAW脑电数据**  
 * **8 `liblsl-Matlab-master.zip`---库文件夹**，解压后添加到matlab路径
 * **9 `Brainflow`---库文件夹**  自己下载吧hhh，然后添加到matlab路径
+* **10 `data`---文件夹** **存放 `dataAnalysis.m`运行所需数据，由于文件太大，请阅读readme后自行下载**
+
 > 注：每一个程序中均给出了详细的代码注释以及对应的参考文献。: )
 
 
@@ -111,3 +113,8 @@
 > Brainflow的库，需要将该文件及其文件夹完整的添加到Matlab路径,里面有大量的用于信号处理的封装好的函数，具体可见Brainflow官网
 [Brainflow官方参考资料](https://brainflow.readthedocs.io/en/stable/index.html)  
 > 文件太大了，上传不上来https://brainflow.readthedocs.io/en/stable/BuildBrainFlow.html#matlab，可以自己在官方下hhhh
+
+## 10 data 文件夹
+存放的为Benchmark Dataset脑电数据,这里给出了S1-S35个mat文件，具体数据集情况见文件夹下`readme.pdf`文件以及以下文献
+[A Benchmark Dataset for SSVEP-Based Brain–Computer Interfaces | IEEE Journals & Magazine | IEEE Xplore](https://ieeexplore.ieee.org/document/7740878)
+
