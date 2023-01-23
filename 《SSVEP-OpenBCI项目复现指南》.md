@@ -2,7 +2,14 @@
 ## -----该指南将由卜博士完成，如未完成，请及时督促+催他→[![BXL](https://img.shields.io/github/followers/Bu0717?label=%E5%8D%9C%E5%8D%9A%E5%A3%AB&style=social)](https://github.com/Bu0717)
 ## 请一步一步按照指南完成复现
 即日起（2022/12/13）开始更新！！！不要催啦，预计月底前(2022/12/31)更新结束,平时不看GitHub，可以加QQ：2044265038  
-## 🧭 导航
+
+## 🤓 SSVEP-OpenBCI项目介绍
+
++ 🎊[**项目简介**](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/blob/main/docs/%E9%A1%B9%E7%9B%AE%E7%AE%80%E4%BB%8B.md)
++ 🎡[**方案总结设计概述**](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/blob/main/docs/%E6%96%B9%E6%A1%88%E6%80%BB%E7%BB%93%E8%AE%BE%E8%AE%A1%E6%A6%82%E8%BF%B0.md)
++ 🎯[**项目创新优势**](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/blob/main/docs/%E9%A1%B9%E7%9B%AE%E5%88%9B%E6%96%B0%E4%BC%98%E5%8A%BF.md)
+
+## 🧭 复现导航
 
 + 🔍[**OPENBCI安装**](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/blob/main/docs/OPENBCI%E5%AE%89%E8%A3%85.md)
 + 🔧[**Psychtoolbox安装**](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/blob/main/docs/Psychtoolbox%E5%AE%89%E8%A3%85.md)
