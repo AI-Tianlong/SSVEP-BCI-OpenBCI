@@ -1,4 +1,4 @@
-# 《SSVEP-OpenBCI项目复现指南》🌸
+# 《SSVEP-BCI-OpenBCI项目复现指南》🌸
 
 ![](https://img.shields.io/badge/keywords-BCI%2CSSVEP%2CEEG-green)
 
