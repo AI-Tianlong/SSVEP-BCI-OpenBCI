@@ -1,13 +1,13 @@
 # SSVEP-BCI-OpenBCI ![贡献者](https://img.shields.io/github/contributors/AI-Tianlong/SSVEP-BCI-OpenBCI?label=%E5%90%88%E4%BD%9C%E8%B4%A1%E7%8C%AE%E8%80%85)  [![LWL](https://img.shields.io/github/followers/lwlBCI?label=LWL&style=social)](https://github.com/lwlBCI) [![BXL](https://img.shields.io/github/followers/Bu0717?label=BXL&style=social)](https://github.com/Bu0717)  [![ZZH](https://img.shields.io/github/followers/HITzihao?label=ZZH&style=social)](https://github.com/HITzihao)
 
-## 《SSVEP-OpenBCI项目复现指南》[点这里查看项目复现指南](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/blob/main/%E3%80%8ASSVEP-OpenBCI%E9%A1%B9%E7%9B%AE%E5%A4%8D%E7%8E%B0%E6%8C%87%E5%8D%97%E3%80%8B.md)
+### **此项目由中北大学信息与通信工程学院信号分析与系统仿真实验室创建**  
+## [点这里查看《SSVEP-BCI-OpenBCI项目复现指南》](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/blob/main/%E3%80%8ASSVEP-OpenBCI%E9%A1%B9%E7%9B%AE%E5%A4%8D%E7%8E%B0%E6%8C%87%E5%8D%97%E3%80%8B.md)⬅复现此项目必看文档！！！
 
-## ***此项目由中北大学信息与通信工程学院信号分析与系统仿真实验室创建***  
-## 此项目是基于OpenBCI(Bciduino)完成的SSVEP项目，包括以下部分的所有程序
+## 此项目是基于OpenBCI(Bciduino)完成的SSVEP项目，包括以下部分程序（均为Matlab代码）
 * 基于Matlab Psychtoolbox3的闪烁刺激器
-* 基于BCIduino放大器和LSL的信号实时传输 
+* 基于BCIduino放大器和LSL的信号实时传输
 * 基于Matlab的脑电信号预处理
-* 基于FFT的SSVEP分类
+* 基于频谱分析的SSVEP分类
 * 利用分类结果通过笔记本自带蓝牙去控制蓝牙小车运动
 * 利用分类结果实现脑控打字
 ## 硬件系统搭建
