@@ -25,7 +25,7 @@
 + 🎊[**项目简介**](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/blob/main/docs/%E9%A1%B9%E7%9B%AE%E7%AE%80%E4%BB%8B.md)
 + 🎡[**方案总结设计概述**](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/blob/main/docs/%E6%96%B9%E6%A1%88%E6%80%BB%E7%BB%93%E8%AE%BE%E8%AE%A1%E6%A6%82%E8%BF%B0.md)
 + 🎯[**项目创新优势**](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/blob/main/docs/%E9%A1%B9%E7%9B%AE%E5%88%9B%E6%96%B0%E4%BC%98%E5%8A%BF.md)
-+ ✌️[**项目设计难点**](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/tree/main/docs)
++ ✌️[**项目设计难点**](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/blob/main/docs/%E9%A1%B9%E7%9B%AE%E8%AE%BE%E8%AE%A1%E9%9A%BE%E7%82%B9.md)
 
 ## 🧭 复现导航
 
