@@ -38,14 +38,14 @@
 
 ## 🍓 总结及演示
 
-* [**项目总结**](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/blob/main/docs/%E9%A1%B9%E7%9B%AE%E6%80%BB%E7%BB%93.md)
-* [**系统效果图**](https://www.aliyundrive.com/s/cpGHuJ5taWY)
+* 🍄[**项目总结**](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/blob/main/docs/%E9%A1%B9%E7%9B%AE%E6%80%BB%E7%BB%93.md)
+* 🌌[**系统效果图**](https://www.aliyundrive.com/s/cpGHuJ5taWY)
 
-* [**SSVEP-OpenBCI项目演示视频**](https://www.aliyundrive.com/s/1xjjwnYrccy)
+* 🔦[**SSVEP-OpenBCI项目演示视频**](https://www.aliyundrive.com/s/1xjjwnYrccy)
 
-* [**脑控抓取演示视频**](https://www.aliyundrive.com/s/Mknj315updS)
+* 🍧[**脑控抓取演示视频**](https://www.aliyundrive.com/s/Mknj315updS)
 
-* [**摄像头抓取演示视频**](https://www.aliyundrive.com/s/v5fFjxWCA2q)
+* 🎌[**摄像头抓取演示视频**](https://www.aliyundrive.com/s/v5fFjxWCA2q)
 
 <center>我是分割线👉👉👉此项目文档后续会不定期更新完善</center>
 
