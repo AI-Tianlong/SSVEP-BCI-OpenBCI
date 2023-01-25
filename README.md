@@ -9,6 +9,7 @@
 * 基于Matlab的脑电信号预处理
 * 基于FFT的SSVEP分类
 * 利用分类结果通过笔记本自带蓝牙去控制蓝牙小车运动
+* 利用分类结果实现脑控打字
 ## 硬件系统搭建
 需要自己购买杭州航弈生物科技有限公司的BCIduino或者OpenBCI，信号的采集基于OpenBCI上位机LSL完成  
 <img src="https://user-images.githubusercontent.com/50650583/149366828-08c202de-0f79-499a-be11-0f1ad2f552e0.png" width="50%"/>
