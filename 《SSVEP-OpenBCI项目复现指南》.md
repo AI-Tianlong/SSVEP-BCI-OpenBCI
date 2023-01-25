@@ -4,7 +4,9 @@
 
 **希望您在食用该项目前，观看我们提供的演示视频。我们希望该段视频能吸引您的兴趣，让您提前了解到我们做了什么，做的效果！！！**(其中包含了实验器材介绍，脑电帽的佩戴，以及脑控效果演示(包含：脑控打字拼写，脑控智能车，脑控智能家居)。)
 
-🫱[**SSVEP-OpenBCI项目演示视频**](https://www.aliyundrive.com/s/1xjjwnYrccy)🫲
+**为了保护视频中的隐私，以及参试人员的信息，暂时不方便公开，如感兴趣，可以直接联系项目管理员，说明意图，方可对私人提供。注意不允许对其进行商业化行为！不可以对其进行恶意剪辑！不可以公开！！！**
+
+🫱[**~~SSVEP-OpenBCI项目演示视频~~**]()🫲
 
 ***
 
@@ -41,11 +43,11 @@
 * 🍄[**项目总结**](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/blob/main/docs/%E9%A1%B9%E7%9B%AE%E6%80%BB%E7%BB%93.md)
 * 🌌[**系统效果图**](https://www.aliyundrive.com/s/cpGHuJ5taWY)
 
-* 🔦[**SSVEP-OpenBCI项目演示视频**](https://www.aliyundrive.com/s/1xjjwnYrccy)
+* 🔦[**~~SSVEP-OpenBCI项目演示视频~~**]()
 
-* 🍧[**脑控抓取演示视频**](https://www.aliyundrive.com/s/Mknj315updS)
+* 🍧[~~**脑控抓取演示视频**~~]()
 
-* 🎌[**摄像头抓取演示视频**](https://www.aliyundrive.com/s/v5fFjxWCA2q)
+* 🎌[~~**摄像头抓取演示视频**~~]()
 
 <center>我是分割线👉👉👉此项目文档后续会不定期更新完善</center>
 
