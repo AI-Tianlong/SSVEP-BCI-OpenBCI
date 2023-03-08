@@ -1,9 +1,9 @@
-%% ³ÌĞòËµÃ÷
-% ¸Ã³ÌĞòÎªÄÔµçĞÅºÅµÄÔ¤´¦Àí³ÌĞò£¬²¢»­³öÔ¤´¦Àí¹ı³ÌÖĞµÄËùÓĞÍ¼ĞÎ£¨Ê±Óò+ÆµÓò£©
-% ÄÔµçĞÅºÅÔ¤´¦ÀíÁ÷³ÌÈçÏÂ£º
-% RAWÊı¾İ-->È¥³ı»ùÏßÆ¯ÒÆ-->50HzÏİ²¨ÂË²¨-->3-20Hz´øÍ¨ÂË²¨-->¶Ô´¦ÀíºÃµÄN´Îtrail£¨N¸öÈË£©Êı¾İÈ¡Æ½¾ù-->FFT
-% ¸ÃGithubÏîÄ¿Ò²¸ø³öÁË²¿·ÖµÄRAWÊı¾İ
-% ¸Ã³ÌĞòËùÓÃÊı¾İÎª2021BCI¾ºÈüÖĞËù²É¼¯µÄRAWÊı¾İ£¬¾ßÌåÊı¾İ¼¯¿ÉÔÚÇå»ª´óÑ§ÄÔ»ú½Ó¿Ú×éÏÂÔØ£¬ÕâÀïÒ²¸ø³ö¶ÔÓ¦µÄÎÄÏ×
+%% ç¨‹åºè¯´æ˜
+% è¯¥ç¨‹åºä¸ºè„‘ç”µä¿¡å·çš„é¢„å¤„ç†ç¨‹åºï¼Œå¹¶ç”»å‡ºé¢„å¤„ç†è¿‡ç¨‹ä¸­çš„æ‰€æœ‰å›¾å½¢ï¼ˆæ—¶åŸŸ+é¢‘åŸŸï¼‰
+% è„‘ç”µä¿¡å·é¢„å¤„ç†æµç¨‹å¦‚ä¸‹ï¼š
+% RAWæ•°æ®-->å»é™¤åŸºçº¿æ¼‚ç§»-->50Hzé™·æ³¢æ»¤æ³¢-->4-90Hzå¸¦é€šæ»¤æ³¢-->å¯¹å¤„ç†å¥½çš„Næ¬¡trailï¼ˆNä¸ªäººï¼‰æ•°æ®å–å¹³å‡-->FFT
+% è¯¥Githubé¡¹ç›®ä¹Ÿç»™å‡ºäº†éƒ¨åˆ†çš„RAWæ•°æ®
+% è¯¥ç¨‹åºæ‰€ç”¨æ•°æ®ä¸º2021BCIç«èµ›ä¸­æ‰€é‡‡é›†çš„RAWæ•°æ®ï¼Œå…·ä½“æ•°æ®é›†å¯åœ¨æ¸…åå¤§å­¦è„‘æœºæ¥å£ç»„ä¸‹è½½ï¼Œè¿™é‡Œä¹Ÿç»™å‡ºå¯¹åº”çš„æ–‡çŒ®
 % 
 % @article{zhu_jiang_dong_gao_wang_2021, 
 % title={An Open Dataset for Wearable SSVEP-Based Brain-Computer Interfaces}, 
@@ -17,28 +17,28 @@
 %     year={2021}, 
 %     pages={1256}}
 
-%% ÒÔÏÂÎª³ÌĞò
+%% ä»¥ä¸‹ä¸ºç¨‹åº
 close all
 clear all
 clc
 
-%% ÅÜ×Ô¼º²ÉµÄÊı¾İ
+%% è·‘è‡ªå·±é‡‡çš„æ•°æ®
 % % % filename ='D:\ATL\BCI_design\Finally_code\online_BCI\data\12Hz_1_3.csv';
 % % % Mat = csvread(filename);
 % % % sig_raw = Mat(:,7);
 
-%% ÅÜTsinghuaµÄrawÊı¾İ
+%% è·‘Tsinghuaçš„rawæ•°æ®
 DATA = [];
-for Nsubject = 10:20   %¿ÉÒÔ¸Ä³É10:50µÄĞ§¹û¸üºÃ£¬Æ½¾ù50¸ö±»ÊÔµÄÄÔµçÊı¾İ£¬                                                           
+for Nsubject = 10:20   %å¯ä»¥æ”¹æˆ10:50çš„æ•ˆæœæ›´å¥½ï¼Œå¹³å‡50ä¸ªè¢«è¯•çš„è„‘ç”µæ•°æ®ï¼Œ                                                           
     string=['./EEG_RAW_data/S0', num2str(Nsubject), '.mat']; 
-    filename1 = string;      %¸ü¶àÊı¾İ¼¯¿ÉÒÔÇ°Íùhttp://bci.med.tsinghua.edu.cn/download.htmlÏÂÔØ
+    filename1 = string;      %æ›´å¤šæ•°æ®é›†å¯ä»¥å‰å¾€http://bci.med.tsinghua.edu.cn/download.htmlä¸‹è½½
     load (filename1)
     DATA1 = mean(squeeze(data(6,:,2,:,7)),2)';
     DATA(Nsubject,:) = DATA1;
 end
 
 sig_raw = mean(DATA,1);
-%% ÅÜTsinghuaµÄbenchÊı¾İ
+%% è·‘Tsinghuaçš„benchæ•°æ®
 % % % DATA = [];
 % % % for Nsubject = 1:2
 % % % 
@@ -54,33 +54,33 @@ sig_raw = mean(DATA,1);
 % % % end
 % % % 
 % % % sig_raw = mean(DATA,1);
-%% È¥³ı»ùÏßÆ¯ÒÆ
+%% å»é™¤åŸºçº¿æ¼‚ç§»
 NLen=length(sig_raw);
-fs=250;%²ÉÑùÆµÂÊ£¬¿É´ÓÈí¼şÉÏÉè¶¨
-Ts=1/fs;%Ê±¼ä¼ä¸ôÎª²ÉÑùÆµÂÊµÄµ¹Êı
-fmaxd=5;%½ØÖ¹ÆµÂÊÎª3Hz
+fs=250;%é‡‡æ ·é¢‘ç‡ï¼Œå¯ä»è½¯ä»¶ä¸Šè®¾å®š
+Ts=1/fs;%æ—¶é—´é—´éš”ä¸ºé‡‡æ ·é¢‘ç‡çš„å€’æ•°
+fmaxd=5;%æˆªæ­¢é¢‘ç‡ä¸º3Hz
 fmaxn=fmaxd/(fs/2);
 [b,a]=butter(1,fmaxn,'low');
-data_3Hz = filtfilt(b,a,sig_raw);%Í¨¹ı3HzµÍÍ¨ÂË²¨Æ÷µÄĞÅºÅ
-sig_after_detrend = sig_raw - data_3Hz; %È¥³ıÕâÒ»¶ÎĞÅºÅ£¬µÃµ½È¥»ùÏßÆ¯ÒÆµÄĞÅºÅ
+data_3Hz = filtfilt(b,a,sig_raw);%é€šè¿‡3Hzä½é€šæ»¤æ³¢å™¨çš„ä¿¡å·
+sig_after_detrend = sig_raw - data_3Hz; %å»é™¤è¿™ä¸€æ®µä¿¡å·ï¼Œå¾—åˆ°å»åŸºçº¿æ¼‚ç§»çš„ä¿¡å·
 
-%»æÍ¼
+%ç»˜å›¾
 figure,
-subplot(3,1,1),plot(sig_raw),title('Ô­Ê¼ĞÅºÅ'),xlim([0 NLen]);
-subplot(3,1,2),plot(data_3Hz),title('Ç÷ÊÆÏß'),xlim([0 NLen]);
-subplot(3,1,3),plot(sig_after_detrend),title('È¥³ı»ùÏßÆ¯ÒÆµÄĞÅºÅ'),xlim([0 NLen]);
+subplot(3,1,1),plot(sig_raw),title('åŸå§‹ä¿¡å·'),xlim([0 NLen]);
+subplot(3,1,2),plot(data_3Hz),title('è¶‹åŠ¿çº¿'),xlim([0 NLen]);
+subplot(3,1,3),plot(sig_after_detrend),title('å»é™¤åŸºçº¿æ¼‚ç§»çš„ä¿¡å·'),xlim([0 NLen]);
 
-%% 50Hz Ïİ²¨ÂË²¨
-%ÕâÀïÊ¹ÓÃÁËBrainflowµÄĞÅºÅ´¦Àí¿â,Çë×Ô¼º¸ü»»Ïİ²¨ÂË²¨Æ÷»òÌí¼ÓBrainflow¿âÓÚmatlabÂ·¾¶ÖĞ
-%ÏêÇéÊ¹ÓÃ·½·¨¿ÉÒÔ²Î¿¼ https://brainflow.readthedocs.io/en/stable/BuildBrainFlow.html#matlab
+%% 50Hz é™·æ³¢æ»¤æ³¢
+%è¿™é‡Œä½¿ç”¨äº†Brainflowçš„ä¿¡å·å¤„ç†åº“,è¯·è‡ªå·±æ›´æ¢é™·æ³¢æ»¤æ³¢å™¨æˆ–æ·»åŠ Brainflowåº“äºmatlabè·¯å¾„ä¸­
+%è¯¦æƒ…ä½¿ç”¨æ–¹æ³•å¯ä»¥å‚è€ƒ https://brainflow.readthedocs.io/en/stable/BuildBrainFlow.html#matlab
 
-sig_after_notch = DataFilter.perform_bandstop(sig_after_detrend, 250, 50, 2, 3, 0, 0.2);  %50Hz¹¤ÆµµÄ´ø×è
+sig_after_notch = DataFilter.perform_bandstop(sig_after_detrend, 250, 50, 2, 3, 0, 0.2);  %50Hzå·¥é¢‘çš„å¸¦é˜»
 
-%% 4-90Hz´øÍ¨ÂË²¨
-[b, a] = butter_bandpass(4, 90, fs, 2);  %ÕâÀï·â×°ÁËÒ»¸öº¯Êı£¬ÔÚÎÄ¼ş¼ĞÏÂÒ²¸ø³öÁË£¬²ÎÊıÎª(f1,f2,²ÉÑùÂÊ,½×Êı)
+%% 4-90Hzå¸¦é€šæ»¤æ³¢
+[b, a] = butter_bandpass(4, 90, fs, 2);  %è¿™é‡Œå°è£…äº†ä¸€ä¸ªå‡½æ•°ï¼Œåœ¨æ–‡ä»¶å¤¹ä¸‹ä¹Ÿç»™å‡ºäº†ï¼Œå‚æ•°ä¸º(f1,f2,é‡‡æ ·ç‡,é˜¶æ•°)
 sig_after_Filt = filtfilt(b, a, sig_after_notch);
 
-%% »­ËùÓĞ´¦Àí½á¹ûµÄÊ±ÓòÍ¼
+%% ç”»æ‰€æœ‰å¤„ç†ç»“æœçš„æ—¶åŸŸå›¾
 % f0=50;
 Fs=250;
 Ts=1/Fs;
@@ -88,39 +88,39 @@ NLen=length(sig_after_detrend);
 n=0:NLen-1;
 
 figure,
-subplot(4,2,1),plot(sig_raw);title('Ô­Ê¼RAWÄÔµçÊı¾İ'),xlim([0 NLen]); 
-subplot(4,2,2),plot(data_3Hz);title('»ùÏßÆ¯ÒÆÇ÷ÊÆÏß'),xlim([0 NLen]);
-subplot(4,2,3),plot(sig_after_detrend);title('È¥³ı»ùÏßÆ¯ÒÆºóµÄĞÅºÅ'),ylabel('Amplitude(¦ÌV)'),xlim([0 NLen]);
-subplot(4,2,5),plot(sig_after_notch);title('Ïİ²¨ÂË²¨Ö®ºóµÄĞÅºÅ'),ylabel('Amplitude(¦ÌV)'),xlim([0 NLen]);
-subplot(4,2,7),plot(sig_after_Filt);title('´øÍ¨ÂË²¨Ö®ºóµÄĞÅºÅ'),ylabel('Amplitude(¦ÌV)'),xlim([0 NLen]);
+subplot(4,2,1),plot(sig_raw);title('åŸå§‹RAWè„‘ç”µæ•°æ®'),xlim([0 NLen]); 
+subplot(4,2,2),plot(data_3Hz);title('åŸºçº¿æ¼‚ç§»è¶‹åŠ¿çº¿'),xlim([0 NLen]);
+subplot(4,2,3),plot(sig_after_detrend);title('å»é™¤åŸºçº¿æ¼‚ç§»åçš„ä¿¡å·'),ylabel('Amplitude(Î¼V)'),xlim([0 NLen]);
+subplot(4,2,5),plot(sig_after_notch);title('é™·æ³¢æ»¤æ³¢ä¹‹åçš„ä¿¡å·'),ylabel('Amplitude(Î¼V)'),xlim([0 NLen]);
+subplot(4,2,7),plot(sig_after_Filt);title('å¸¦é€šæ»¤æ³¢ä¹‹åçš„ä¿¡å·'),ylabel('Amplitude(Î¼V)'),xlim([0 NLen]);
 
-%% »­ËùÓĞ´¦Àí½á¹ûµÄÆµÆ×Í¼
+%% ç”»æ‰€æœ‰å¤„ç†ç»“æœçš„é¢‘è°±å›¾
 % fft
-N=2^nextpow2(length(sig_raw));  %È¥ÕÒ2µÄ±¶ÊıµÄµãÈ¥×öFFT
+N=2^nextpow2(length(sig_raw));  %å»æ‰¾2çš„å€æ•°çš„ç‚¹å»åšFFT
 T=1/Fs;
 f1=(0:(N-1))/(N*T);  
 
-%È¥³ı»ùÏßÆ¯ÒÆÖ®ºóµÄÆµÆ×
+%å»é™¤åŸºçº¿æ¼‚ç§»ä¹‹åçš„é¢‘è°±
 amplitude = abs(fft(sig_after_detrend,N));  
 amplitude = amplitude*2/N;
 amplitude(1) = amplitude(1)/2;
 data2 = amplitude;
 subplot(4,2,4),plot(f1, data2,'linewidth', 1), xlim([5 80]), %ylim([0 3])
-xlabel('Frequency(Hz)'), ylabel('Amplitude'),title('È¥³ı»ùÏßÆ¯ÒÆÖ®ºóµÄÆµÆ×Í¼');
+xlabel('Frequency(Hz)'), ylabel('Amplitude'),title('å»é™¤åŸºçº¿æ¼‚ç§»ä¹‹åçš„é¢‘è°±å›¾');
 
-%È¥³ı»ùÏßÆ¯ÒÆ+Ïİ²¨ÂË²¨Ö®ºóµÄÆµÆ×
+%å»é™¤åŸºçº¿æ¼‚ç§»+é™·æ³¢æ»¤æ³¢ä¹‹åçš„é¢‘è°±
 amplitude = abs(fft(sig_after_notch,N));    
 amplitude = amplitude*2/N;
 amplitude(1) = amplitude(1)/2;
 data2 = amplitude;
 subplot(4,2,6),plot(f1, data2,'linewidth', 1), xlim([5 80]),
-xlabel('Frequency(Hz)'), ylabel('Amplitude'),title('È¥³ı»ùÏßÆ¯ÒÆ+Ïİ²¨ÂË²¨Ö®ºóµÄÆµÆ×Í¼');
+xlabel('Frequency(Hz)'), ylabel('Amplitude'),title('å»é™¤åŸºçº¿æ¼‚ç§»+é™·æ³¢æ»¤æ³¢ä¹‹åçš„é¢‘è°±å›¾');
 
-%È¥³ı»ùÏßÆ¯ÒÆ+Ïİ²¨ÂË²¨+´øÍ¨ÂË²¨Ö®ºóµÄÆµÆ×
+%å»é™¤åŸºçº¿æ¼‚ç§»+é™·æ³¢æ»¤æ³¢+å¸¦é€šæ»¤æ³¢ä¹‹åçš„é¢‘è°±
 amplitude = abs(fft(sig_after_Filt,N));
 amplitude = amplitude*2/N;
 amplitude(1) = amplitude(1)/2;
 data2 = amplitude;
 subplot(4,2,8),plot(f1, data2,'linewidth', 1), xlim([5 80]), %ylim([0 3])
-xlabel('Frequency(Hz)'), ylabel('Amplitude'),title('È¥³ı»ùÏßÆ¯ÒÆ+Ïİ²¨ÂË²¨+´øÍ¨ÂË²¨Ö®ºóµÄÆµÆ×Í¼');
+xlabel('Frequency(Hz)'), ylabel('Amplitude'),title('å»é™¤åŸºçº¿æ¼‚ç§»+é™·æ³¢æ»¤æ³¢+å¸¦é€šæ»¤æ³¢ä¹‹åçš„é¢‘è°±å›¾');
 
