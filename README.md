@@ -1,4 +1,4 @@
-# SSVEP-BCI-OpenBCI ![贡献者](https://img.shields.io/github/contributors/AI-Tianlong/SSVEP-BCI-OpenBCI?label=%E5%90%88%E4%BD%9C%E8%B4%A1%E7%8C%AE%E8%80%85)  [![LWL](https://img.shields.io/github/followers/lwlBCI?label=LWL&style=social)](https://github.com/lwlBCI) [![BXL](https://img.shields.io/github/followers/Bu0717?label=BXL&style=social)](https://github.com/Bu0717)  [![ZZH](https://img.shields.io/github/followers/HITzihao?label=ZZH&style=social)](https://github.com/HITzihao)
+# SSVEP-BCI-OpenBCI ![贡献者](https://img.shields.io/github/contributors/AI-Tianlong/SSVEP-BCI-OpenBCI?label=%E5%90%88%E4%BD%9C%E8%B4%A1%E7%8C%AE%E8%80%85)[![LB](https://img.shields.io/github/followers/LBMoon?label=LiuBo&style=social)](https://github.com/LBMoon)  [![LWL](https://img.shields.io/github/followers/lwlBCI?label=LWL&style=social)](https://github.com/lwlBCI) [![BXL](https://img.shields.io/github/followers/Bu0717?label=BXL&style=social)](https://github.com/Bu0717)  [![ZZH](https://img.shields.io/github/followers/HITzihao?label=ZZH&style=social)](https://github.com/HITzihao) [![ATL](https://img.shields.io/github/followers/AI-Tianlong?label=ATL&style=social)](https://github.com/AI-Tianlong) 
 
 ### **此项目由中北大学信息与通信工程学院信号分析与系统仿真实验室创建**  
 ## [点这里查看《SSVEP-BCI-OpenBCI项目复现指南》](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/blob/main/%E3%80%8ASSVEP-OpenBCI%E9%A1%B9%E7%9B%AE%E5%A4%8D%E7%8E%B0%E6%8C%87%E5%8D%97%E3%80%8B.md)⬅复现此项目必看文档！！！
@@ -45,4 +45,3 @@
 
 此外，关于本项目的其它问题欢迎随时联系贡献者中的 lwlBCI😚
 
-后续待更新
