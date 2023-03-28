@@ -17,7 +17,7 @@
 
 
 
-## 基于Matlab Psychtoolbox3的闪烁刺激器
+### 基于Matlab Psychtoolbox3的闪烁刺激器
 ### ---[`matlab_stimulator`文件夹](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/tree/main/matlab_stimulator)--->[`BCI_car_stimu.m`](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/blob/main/matlab_stimulator/BCI_car_stimu.m)
 <img src="https://user-images.githubusercontent.com/50650583/149368480-8caf2b23-deaa-4d2d-9e05-e512cc4999f4.png" width="50%">
 
