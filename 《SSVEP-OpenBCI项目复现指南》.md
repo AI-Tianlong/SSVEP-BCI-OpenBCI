@@ -16,7 +16,7 @@
 
 [![BXL](https://img.shields.io/github/followers/Bu0717?label=BXL-UCAS&style=social)](https://github.com/Bu0717)  [![BXL](https://img.shields.io/badge/陌人不故-07c160?style=for-the-badge&logo=wechat&logoColor=white)](https://i.postimg.cc/cCZPX33y/mmqrcode1674647275960.png)**复现指南的编写，信号处理，项目组最菜**
 
-[![LWL](https://img.shields.io/github/followers/lwlBCI?label=LWL-NUC&style=social)](https://github.com/lwlBCI)  [![LWL](https://img.shields.io/badge/RusswestDG-07c160?style=for-the-badge&logo=wechat&logoColor=white)](https://i.postimg.cc/LXcg7zBX/mmexport1674648171838.jpg)**脑电信号处理大神！！！**
+[![LWL](https://img.shields.io/github/followers/lwlBCI?label=LWL-NUC&style=social)](https://github.com/lwlBCI)  [![LWL](https://img.shields.io/badge/RusswestDG-07c160?style=for-the-badge&logo=wechat&logoColor=white)]()**脑电信号处理大神！！！**
 
 [![ZZH](https://img.shields.io/github/followers/HITzihao?label=ZZH-HIT&style=social)](https://github.com/HITzihao)  [![ZZH](https://img.shields.io/badge/浩浩-07c160?style=for-the-badge&logo=wechat&logoColor=white)](https://i.postimg.cc/rz2shQJy/mmexport1674647395044.jpg)**硬件大佬！！！**
 
