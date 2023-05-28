@@ -19,8 +19,8 @@
 
 [![LWL](https://img.shields.io/github/followers/lwlBCI?label=LWL-NUC&style=social)](https://github.com/lwlBCI)  [![LWL](https://img.shields.io/badge/RusswestDG-07c160?style=for-the-badge&logo=wechat&logoColor=white)]()**脑电信号处理大神！！！**
 
-[![ZZH](https://img.shields.io/github/followers/HITzihao?label=ZZH-HIT&style=social)](https://github.com/HITzihao)  [![ZZH](https://img.shields.io/badge/浩浩-07c160?style=for-the-badge&logo=wechat&logoColor=white)](https://i.postimg.cc/rz2shQJy/mmexport1674647395044.jpg)**硬件大佬！！！**
-
+[![ZZH](https://img.shields.io/github/followers/HITzihao?label=ZZH-HIT&style=social)](https://github.com/HITzihao)  [![ZZH](https://img.shields.io/badge/浩浩-07c160?style=for-the-badge&logo=wechat&logoColor=white)](https://i.postimg.cc/rz2shQJy/mmexport1674647395044.jpg)**硬件大佬！！！**  
+ [![FZ](https://img.shields.io/github/followers/zhuangfeng122915?label=FengZhuang&style=social)](https://github.com/zhuangfeng122915) **精通智能优化算法！！！**
 ***
 
 ## 🤓SSVEP-OpenBCI项目介绍
