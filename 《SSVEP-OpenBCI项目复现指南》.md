@@ -11,7 +11,7 @@
 -->
 ***
 
-关于该项目您有任何问题,可随时联系项目管理员：
+关于该项目您有任何问题，可随时联系以下合作贡献者：
 
 [![ATL](https://img.shields.io/github/followers/AI-Tianlong?label=ATL-HIT&style=social)](https://github.com/AI-Tianlong)  [![ATL](https://img.shields.io/badge/ATL-07c160?style=for-the-badge&logo=wechat&logoColor=white)](https://github.com/AI-Tianlong)**全能最强选手！刺激器设计，信号处理**
 
