@@ -24,11 +24,11 @@
 
 
 ## 基于BCIduino放大器和LSL的信号实时传输
-### ---[`matlab_stimulator`文件夹](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/tree/main/matlab_stimulator)-->查看具体说明
+### ---[`matlab_signal_processing`文件夹](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/tree/main/matlab_signal_processing)-->查看具体说明
 ![image](https://user-images.githubusercontent.com/50650583/149366997-4a9ed976-9df0-4e66-967d-bdf5d09014a8.png)
 
 ## 基于Matlab的脑电信号预处理
-### ---[`matlab_stimulator`文件夹](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/tree/main/matlab_stimulator)-->[`offline_analysis.m`](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/blob/main/matlab_signal_processing/offline_analysis.m)
+### ---[`matlab_signal_processing`文件夹](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/tree/main/matlab_signal_processing)-->[`offline_analysis.m`](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/blob/main/matlab_signal_processing/offline_analysis.m)
 <img src="https://user-images.githubusercontent.com/50650583/149368378-8ab0b548-8648-42c0-b7c5-b6587f54fd0f.png" width="100%">
 
 
@@ -37,10 +37,10 @@
 
 
 ## 基于FFT的SSVEP分类
-### ---[`matlab_stimulator`文件夹](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/tree/main/matlab_stimulator)-->[`online_analysis.m`](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/blob/main/matlab_signal_processing/online_analysis.m)
+### ---[`matlab_signal_processing`文件夹](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/tree/main/matlab_signal_processing)-->[`online_analysis.m`](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/blob/main/matlab_signal_processing/online_analysis.m)
 
 ## 利用分类结果去控制蓝牙小车运动
-### ---[`matlab_stimulator`文件夹](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/tree/main/matlab_stimulator)-->[`online_analysis.m`](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/blob/main/matlab_signal_processing/online_analysis.m)
+### ---[`matlab_signal_processing`文件夹](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/tree/main/matlab_signal_processing)-->[`online_analysis.m`](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/blob/main/matlab_signal_processing/online_analysis.m)
 <img src='https://user-images.githubusercontent.com/50650583/150639266-47c4ba26-1e60-42e0-bb8a-ba16dde6c2df.png' width='70%'/>
 
 此外，关于本项目的其它问题欢迎随时联系贡献者中的 lwlBCI😚
