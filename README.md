@@ -43,7 +43,7 @@
 ### ---[`matlab_signal_processing`文件夹](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/tree/main/matlab_signal_processing)-->[`online_analysis.m`](https://github.com/AI-Tianlong/SSVEP-BCI-OpenBCI/blob/main/matlab_signal_processing/online_analysis.m)
 <img src='https://user-images.githubusercontent.com/50650583/150639266-47c4ba26-1e60-42e0-bb8a-ba16dde6c2df.png' width='70%'/>
 
-此外，关于本项目的其它问题欢迎随时联系贡献者中的 lwlBCI😚
+此外，关于本项目的其它问题欢迎随时联系贡献者中的 [![LWL](https://img.shields.io/github/followers/lwlBCI?label=LWL&style=social)](https://github.com/lwlBCI)😚
 
 敬请期待后续更新
 ## 更新小记
