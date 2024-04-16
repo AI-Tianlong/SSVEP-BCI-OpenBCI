@@ -48,7 +48,7 @@
 
 敬请期待后续更新
 ## 更新小记
-⭐ state
+⭐ state  
 <img src='https://starchart.cc/AI-Tianlong/SSVEP-BCI-OpenBCI.svg' width='70%'/>
 
 (感谢各位对本工作的兴趣与肯定)
